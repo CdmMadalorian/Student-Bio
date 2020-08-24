@@ -1,0 +1,88 @@
+.wrapper {
+  max-width: fit-content;
+  max-height: fit-content;
+  
+}
+
+div.card {
+  
+}
+
+div.card-body#password {
+  box-sizing: content-box;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+   background-color: black;
+    }
+  
+    .wrapper {
+      
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    body {
+   background-color: black;
+    }
+  
+    .wrapper {
+      
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    body {
+        background-color: black;
+      
+    }
+  
+    .wrapper {
+      
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
